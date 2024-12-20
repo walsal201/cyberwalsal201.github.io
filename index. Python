@@ -1,0 +1,10 @@
+print("Welcome to Cyberwalsal201 Academy")
+name = input("what is your name? \n")
+print("Hi " + name + ", Nice to meet you in my academy\n\n\n")
+Course = "python, Data Science, Cyber Security, Artefitcial Intellegence"
+print(name + ", What lectures do you want to attend from the above course list " + Course)
+order = input()
+price = 500
+quantity = input("how many lecture do you want to attend?\n")
+total = price * int(quantity)
+print(" Thank you very much for registring for " + order + " and you total cost is: $"+str(total))
